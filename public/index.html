@@ -5,12 +5,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SafetyKleen Interactive Demo</title>
-  <meta name="description" content="A B2Me Hero sample">
+  <title>SafetyKleen Demo Landing Page</title>
+  <meta name="description" content="SafetyKleen PCT Demo Landing Page">
   <meta name="author" content="SitePoint">
-  <meta property="og:title" content="A B2Me Hero sample">
+  <meta property="og:title" content="SafetyKleen PCT Demo Landing Page">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="A B2Me Hero sample">
+  <meta property="og:description" content="SafetyKleen PCT Demo Landing Page">
   <meta property="og:image" content="image.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -27,10 +27,86 @@
 </head>
 
 <body>
-  <div class="comparison-slider" data-image-width=1920 data-image-height=1080>
-    <div class="before" style="background-image: url('img/dirty.jpg')"></div>
-    <div class="after" style="background-image: url('img/clean.jpg')"></div>
-</div>
+  <div class="w-full py-3 px-12 flex items-center justify-between">
+    <span id="logo" class="mx-auto md:mx-0">
+      <img src="img/logo.svg" class="w-44" alt="">
+    </span>
+    <ul class="gap-8 justify-center font-medium hidden md:flex">
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">Products</a>
+      </li>
+      <li>
+        <a href="#">Industries</a>
+      </li>
+      <li>
+        <a href="#">About us</a>
+      </li>
+      <li>
+        <a href="#">Contact us</a>
+      </li>
+    </ul>
+  </div>
+  <div class="px-7">
+    <div class="md:grid md:grid-cols-12 flex flex-col-reverse items-center w-full">
+      <div class="col-span-6">
+        <img src="img/bearing-splash.png" class="max-w-xl w-full ml-auto" alt="">
+      </div>
+      <div class="col-span-4 md:text-left text-center py-12">
+        <h1 class="text-[3.5rem] leading-[3.5rem] font-bold mb-4">Purified Cleaning Technology</h1>
+        <h2 class="text-[1.75rem] leading-[2rem] mb-8">Safetykleen’s best, most sustainable parts cleaning solution
+        </h2>
+        <a href="#" class="bg-yellow py-3 px-4 rounded-full">FIND OUT MORE</a>
+      </div>
+    </div>
+  </div>
+  <div class="w-full bg-cover px-7 py-40" style="background-image: url('img/parts-bg.jpg');">
+    <div class="text-center w-full max-w-2xl mx-auto text-white">
+      <h2 class="text-4xl font-bold mb-3">Elevate Your Cleaning Performance with Our Latest Innovation</h2>
+      <p>Experience the future of parts cleaning with our latest and most advanced cleaning solution. The Purified
+        Cleaning Technology offers superior cleaning efficacy, maximizes productivity, and champions environmental
+        sustainability.</p>
+    </div>
+  </div>
+  <div class="mx-auto w-full max-w-screen-xl py-20">
+    <div class="grid grid-cols-2 w-full">
+      <div>
+        <h2 class="text-4xl font-bold">Key Features:</h2>
+        <ul>
+          <li class="flex gap-3">
+            <span>
+              <svg class="w-5 h-5 mt-2" id="Layer_1" data-name="Layer 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560">
+                <path class="cls-1"
+                  d="m200,560C89.54,560,0,470.46,0,360,0,226.67,200,0,200,0c0,0,200,226.67,200,360,0,110.46-89.54,200-200,200Z" />
+              </svg>
+            </span>
+            <div>
+              <h3 class="text-2xl font-bold">Purified Water Technology</h3>
+              <p>99% impurity-free water for best cleaning results every cycle.</p>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span>
+              <svg class="w-5 h-5 mt-2" id="Layer_1" data-name="Layer 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560">
+                <path class="cls-1"
+                  d="m200,560C89.54,560,0,470.46,0,360,0,226.67,200,0,200,0c0,0,200,226.67,200,360,0,110.46-89.54,200-200,200Z" />
+              </svg>
+            </span>
+            <div>
+              <h3 class="text-2xl font-bold">Advanced Formula Chemistries</h3>
+              <p>Achieve 2:1 superior cleaning performance than our previous solutions.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="comparison-slider" data-image-width=1920 data-image-height=1080>
+        <div class="before" style="background-image: url('img/dirty.jpg')"></div>
+        <div class="after" style="background-image: url('img/clean.jpg')"></div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

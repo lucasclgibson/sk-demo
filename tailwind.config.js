@@ -4,17 +4,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        neutra: ['Neutra', 'sans-serif'],
-        sans: ['Ubuntu', 'sans-serif'],
+        aeonik: ['Aeonik', 'sans-serif'],
+        sans: ['Aeonik', 'sans-serif'],
       },
       colors: {
-        'yellow': '#FFE261',
-        'light-yellow': '#FFF9EA',
-        'accent-purple': '#E5D8F6',
-        'purple': '#793AD7',
-        'light-purple': '#F4ECFF',
-        'dark-purple': '#5F29B2',
-        'dark': '#2C2C2C',
+        'yellow': '#ffce34',
+        'navy': '#00043d',
+        'blue': '#00aae7',
+        'red': '#ed1b2f',
+        'dark-grey': '#4b4b4b',
+        'light-grey': '#efefef',
       }
     },
   },
