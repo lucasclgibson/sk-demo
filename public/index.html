@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Playground</title>
+  <title>SafetyKleen Interactive Demo</title>
   <meta name="description" content="A B2Me Hero sample">
   <meta name="author" content="SitePoint">
   <meta property="og:title" content="A B2Me Hero sample">
@@ -26,31 +26,11 @@
   <link rel="stylesheet" type="text/css" href="/global.css" />
 </head>
 
-<body class="bg-primary">
-  <div class="bg-white grid">
-    <div
-      class="w-full h-full min-h-screen relative flex items-center bg-gradient-to-tr from-light-purple to-light-yellow p-4 sm:p-7">
-      <div class="text-center sm:text-left max-w-screen-xl w-full mx-auto">
-        <h1 class="font-neutra text-purple text-[2.7rem] leading-[2.5rem] sm:text-[3.4rem] sm:leading-[3.2rem] lg:text-[5.5rem] lg:leading-[5.3rem] mb-3">
-          Unlock Test <span class="relative">
-            <img src="img/icon-1.png" class="float w-48 absolute -top-6 -right-32 hidden sm:block" alt="">
-            Brand's</span><br>Full <span class="highlight">Potential</span></h1>
-        <h2 class="text-dark text-xl sm:text-[1.6rem] mb-4">One-of-a-kind digital marketing solutions</h2>
-        <button class="bg-accent-purple text-dark-purple rounded-[1.2rem] px-6 py-3 font-bold">Discover our
-          services</button>
-      </div>
-    </div>
-  </div>
-  <svg id="noise" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0" width="0" height="0" opacity="0">
-    <defs>
-      <filter id='noise-filter'>
-        <feTurbulence type='fractalNoise' baseFrequency='0.6' stitchTiles='stitch' />
-      </filter>
-    </defs>
-    <rect width="700" height="700" fill="#ffffff00"></rect>
-    <rect width="700" height="700" fill="#ff9400" filter="url(#nnnoise-filter)"></rect>
-  </svg>
+<body>
+  <div class="comparison-slider" data-image-width=1920 data-image-height=1080>
+    <div class="before" style="background-image: url('img/dirty.jpg')"></div>
+    <div class="after" style="background-image: url('img/clean.jpg')"></div>
+</div>
 </body>
 
 </html>
